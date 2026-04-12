@@ -669,13 +669,13 @@
         "uuid": "9f04e495-2040-4ae6-9603-65340a735169"
       }
     ],
-    "used_designators": "R1,D1,#PWR1,#PWR7",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "9f04e495-2040-4ae6-9603-65340a735169",
-      "EpsilonBot"
+      "ZetaBot"
     ]
   ],
   "text_variables": {},

@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "EpsilonBot") (type "KiCad") (uri "${KIPRJMOD}/EpsilonBot.kicad_sym") (options "") (descr ""))
+	(lib (name "ZetaBot") (type "KiCad") (uri "${KIPRJMOD}/ZetaBot.kicad_sym") (options "") (descr ""))
 )
