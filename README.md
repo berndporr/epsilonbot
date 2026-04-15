@@ -1,5 +1,7 @@
 # The Zeta-bot
 
+![alt tag](topview.jpg)
+
 What is the Zeta-Bot?
 
 The Zeta-Bot is an open-source robot platform that uses the:
