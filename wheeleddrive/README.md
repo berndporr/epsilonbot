@@ -1,4 +1,6 @@
-# C++ ZetaBot API for the Raspberry PI
+# C++ ZetaBot API for the Raspberry PI 5
+
+## Prerequisites
 
 Add to `/boot/firmware/config.txt`:
 
@@ -55,20 +57,6 @@ sudo make install
 
 ## Usage
 
-The online documentation is here: https://berndporr.github.io/alphabot/
-
-### Start/stop
-
-Start the callback reporting the battery voltage.
-```
-start()
-```
-
-Stop the callback.
-```
-stop()
-```
-
 ### Motor speed
 
 Setting the speeds of the left/right wheels:
@@ -78,15 +66,10 @@ setRightWheelSpeed(float speed);
 ```
 where speed is between -1 and +1.
 
-### Callback
-
-There is a callback which reports the battery voltage.
-
 ## Demo programs
 
 ![alt tag](testIO.png)
 
-`testIO` is a simple test program which displays the battery voltage and you can test the motors. It also shows
-how the callback is used to display the battery voltage.
+`testIO` is a simple program to control the motors.
 
 `testMotor` ramps up the motor speed and back again.
