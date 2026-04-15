@@ -39,9 +39,9 @@ apt-get install libgpiod-dev
 ```
 
 ### ncurses
-The demo programs below display the sensor
-readings with the ncurses library. Install
-it with
+
+This is needed for testIO for a very simple ASCII GUI!
+
 ```
 apt-get install libncurses-dev
 ```
@@ -68,8 +68,5 @@ where speed is between -1 and +1.
 
 ## Demo programs
 
-![alt tag](testIO.png)
-
-`testIO` is a simple program to control the motors.
-
-`testMotor` ramps up the motor speed and back again.
+ - `testIO` is a simple text GUI program to control the motors.
+ - `testMotor` ramps up the motor speed and back again.
