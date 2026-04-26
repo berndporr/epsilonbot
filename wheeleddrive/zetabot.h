@@ -3,8 +3,8 @@
  * Apache License 2.0
  **/
 
-#ifndef ALPHABOT_H
-#define ALPHABOT_H
+#ifndef ZETABOT_H
+#define ZETABOT_H
 
 #include <thread>
 #include <sys/time.h>
@@ -62,7 +62,7 @@ struct GPIO
 };
 
 /**
- * Alphabot class which communicates with the Alphabot hardware
+ * Zetabot class to control the lin servos
  */
 class ZetaBot
 {
