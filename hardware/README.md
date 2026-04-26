@@ -11,4 +11,4 @@ The Linear servos are simply glued with epoxy onto the PCB.
 The RPI V2 cameras are soldered on the ground plane of the PCB with two stiff 6mm wires. There seem to be no sensible camera holders about so stiff wires seem to be the best option also to adjust the cameras for stereo.
 
 ![alt tag](cameras.jpg)
-
+![alt tag](bottomview.jpg)

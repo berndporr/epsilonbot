@@ -19,12 +19,12 @@ and software support of the individual parts.
 
 ## Hardware
 
-The KiCad design files are in [schematic_files](schematic_files).
+The KiCad design files are in [hardware](hardware).
 
 ## Software
 
  - The motor control libraries are in [wheeleddrive](wheeleddrive).
- - The cameras driver is in https://github.com/berndporr/libcamera2opencv
+ - The cameras driver is in https://github.com/berndporr/libcamera2opencv and there is a QT6 based stereo viewer and disparity detector in [stereo](stereo).
  - The LIDAR driver is in https://github.com/berndporr/c1lidar
 
 ## Credits
