@@ -65,7 +65,7 @@ struct GPIO
 };
 
 /**
- * Alphabot class which communicates with the Alphabot hardware
+ * Zetabot class to control the lin servos
  */
 class ZetaBot
 {
