@@ -5,8 +5,8 @@
 
 void ZetaBot::start()
 {
-    left_wheel_pwm.start(2, pwmfrequ);
-    right_wheel_pwm.start(3, pwmfrequ);
+    left_wheel_pwm.start(PWM_CHANNEL_MOTORL, pwmfrequ);
+    right_wheel_pwm.start(PWM_CHANNEL_MOTORR, pwmfrequ);
 }
 
 void ZetaBot::stop()
