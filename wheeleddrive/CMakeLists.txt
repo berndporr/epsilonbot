@@ -37,3 +37,6 @@ target_link_libraries(testIO zetabot ncurses rt)
 
 add_executable (testMotor testMotor.cpp)
 target_link_libraries(testMotor zetabot ncurses rt)
+
+add_executable (testSpeeds testSpeeds.cpp)
+target_link_libraries(testSpeeds zetabot ncurses rt)

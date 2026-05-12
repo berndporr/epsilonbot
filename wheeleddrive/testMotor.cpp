@@ -3,7 +3,7 @@
 #include <cstdio>
 #include <stdlib.h>
 
-int running = 1;
+
 
 int main(int, char **)
 {
