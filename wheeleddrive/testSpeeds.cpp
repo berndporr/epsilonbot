@@ -3,6 +3,7 @@
 #include <iostream>
 
 
+
 int main(int, char **)
 {
 	ZetaBot zetabot;
@@ -32,41 +33,34 @@ int main(int, char **)
 			break;
 
 		case 'l':
-			l = -1.0f;
-            r=1.0f;
+			// l = -1.0f;
+            // r=1.0f;
+            zetabot.setLeftWheelSpeed(-1.0f);
+            zetabot.setRightWheelSpeed(1.0f);
 			sprintf(tmp, "Turning left at max speed");
-            zetabot.setLeftWheelSpeed(l);
-            zetabot.setRightWheelSpeed(r);
-            usleep(5000000);
 			mvaddstr(6, 0, tmp);
 			refresh();
 			break;
 
 		case 'r':
-			l = 1.0f;
-            r= -1.0f;
+            zetabot.setLeftWheelSpeed(1.0);
+            zetabot.setRightWheelSpeed(1.0f);
 			sprintf(tmp,  "Turning left at max speed");
-            zetabot.setLeftWheelSpeed(l);
-            zetabot.setRightWheelSpeed(r);
-            usleep(5000000); //5 sec
 			mvaddstr(6, 0, tmp);
 			refresh();
 			break;
 
 		case 'f':
-			l =1.0f;
-			r = 1.0f;
+			zetabot.setLeftWheelSpeed(1);
+            zetabot.setRightWheelSpeed(1);
 			sprintf(tmp,"Forwards max speed for 1 minute    l=%f, r=%f                     ",l,r);
-			zetabot.setLeftWheelSpeed(l);
-            zetabot.setRightWheelSpeed(r);
-            usleep(60000000); //1 min
-            mvaddstr(6, 0, tmp);
+			mvaddstr(6, 0, tmp);
 			refresh();
 			break;
 
 		case ' ':
-			l = 0;
-			r = 0;
+			zetabot.setLeftWheelSpeed(0);
+			zetabot.setRightWheelSpeed(0);
 			mvaddstr(6, 0, "Stopping                            ");
 			refresh();
 			break;
@@ -74,8 +68,7 @@ int main(int, char **)
 		default:
 			break;
 		}
-        zetabot.setLeftWheelSpeed(0);
-        zetabot.setLeftWheelSpeed(0);
+
 
 	}
 	zetabot.stop();
